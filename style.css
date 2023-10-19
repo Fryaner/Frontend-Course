@@ -74,20 +74,11 @@ body {
 	gap: 12px;
 }
 .opportunities__list li {
-	background-repeat: no-repeat;
-	background-position: left center;
-	padding-left: 48px;
+	display: flex;
+	gap: 8px;
+	align-items: center;
 	font-size: 14px;
 	line-height: 16.8px;
-}
-.opportunities__list li:nth-child(1) {
-	background-image: url(images/Icon1.svg);
-}
-.opportunities__list li:nth-child(2) {
-	background-image: url(images/Icon2.svg);
-}
-.opportunities__list li:nth-child(3) {
-	background-image: url(images/Icon3.svg);
 }
 .info__btn {
 	color:white;
