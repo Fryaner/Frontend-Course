@@ -21,6 +21,7 @@ body {
 	gap: 32px;
 }
 .container {
+	max-width: 375px;
 	padding: 32px 24px;
 	background-color: #F1F9FD;
 	display: flex;
@@ -51,7 +52,6 @@ body {
 	font-weight: 300;
 }
 .main__info {
-	max-width: 375px;
 	display: flex;
 	flex-direction: column;
 	gap: 36px;
@@ -77,6 +77,8 @@ body {
 	background-repeat: no-repeat;
 	background-position: left center;
 	padding-left: 48px;
+	font-size: 14px;
+	line-height: 16.8px;
 }
 .opportunities__list li:nth-child(1) {
 	background-image: url(images/Icon1.svg);
@@ -87,7 +89,7 @@ body {
 .opportunities__list li:nth-child(3) {
 	background-image: url(images/Icon3.svg);
 }
-.info__btn a {
+.info__btn {
 	color:white;
 	background-color: #514FAE;
 	padding: 20px 28px;
@@ -96,11 +98,12 @@ body {
 	border-radius: 8px;
 	display: flex;
 	justify-content: center;
+	letter-spacing: -0.5px;
 }
 .info__btn a:hover {
 	background-color: #413F8B;
 }
-.main__more a {
+.main__more {
 	color: #514FAE;
 	font-size: 16px;
 	font-weight: 400;
