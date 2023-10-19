@@ -1,0 +1,109 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ul {
+	list-style: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+a {
+	text-decoration: none;
+}
+body {
+	font-family: 'Inter', sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 32px;
+}
+.container {
+	max-width: 375px;
+	padding: 32px 24px;
+	background-color: #F1F9FD;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 32px;
+}
+.header img{
+	cursor: pointer;
+}
+.main {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+.main__title {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+.main__title h1{
+	font-size: 24px;
+	font-weight: 700;
+}
+.main__title h2 {
+	font-size: 18px;
+	font-weight: 300;
+}
+.main__info {
+	display: flex;
+	flex-direction: column;
+	gap: 36px;
+}
+.info__opportunities {
+	background-color: #FFFFFF;
+	border-radius: 12px;
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	padding: 24px;
+}
+.info__opportunities h3 {
+	font-size: 18px;
+	font-weight: 700;
+}
+.opportunities__list {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+.opportunities__list li {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+	font-size: 14px;
+	line-height: 16.8px;
+}
+.info__btn {
+	color:white;
+	background-color: #514FAE;
+	padding: 20px 28px;
+	font-size: 16px;
+	font-weight: 600;
+	border-radius: 8px;
+	display: flex;
+	justify-content: center;
+	letter-spacing: -0.5px;
+}
+.info__btn a:hover {
+	background-color: #413F8B;
+}
+.main__more {
+	color: #514FAE;
+	font-size: 16px;
+	font-weight: 400;
+	display: flex;
+	justify-content: center;
+}
+.main__btns {
+	display: flex;
+	justify-content: center;
+	gap: 8px;
+	flex-wrap: wrap;
+}
